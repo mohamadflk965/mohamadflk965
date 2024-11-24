@@ -1,0 +1,8 @@
+from random import choice
+
+for i in range(1000):
+    letters = ("54465789")
+    collabs = ""
+    for b in range(6):
+        collabs += choice(letters)
+    print(f"+965 99{collabs}")
