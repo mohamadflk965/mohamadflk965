@@ -1,0 +1,7 @@
+from random import choice
+for i in range(10000):
+    list1 = ("abcdefghijklmnopqrstuvwxyz")
+    rand = ""
+    for n in range(4):
+        rand += choice(list1)  
+    print(rand)
